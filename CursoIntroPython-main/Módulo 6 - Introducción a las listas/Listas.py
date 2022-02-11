@@ -1,8 +1,10 @@
 #Crear lista
 planets=["Mercury", "Venus", "Earth","Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
 # Agregamos a plutón y mostramos el último elemento
-planets.append("Pluton")
-print(planets)
+ultimo=len(planets)
+planets.insert(ultimo,"Pluton")
+print(ultimo)
+planets.pop(ultimo)
 print(len(planets))
 # Lista de planetas
 planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Neptune']
